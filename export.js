@@ -1,15 +1,15 @@
-const sum=(a,b)=>a+b;
-const mul=(a,b)=>a*b;
-const min=(a,b)=>a-b;
-const div=(a,b)=>a/b;
+// const sum=(a,b)=>a+b;
+// const mul=(a,b)=>a*b;
+// const min=(a,b)=>a-b;
+// const div=(a,b)=>a/b;
 
-const obj={
-    sum:sum,
-    mul:mul,
-    min:min,
-    div:div
-}
-module.exports=obj;
+// const obj={
+//     sum:sum,
+//     mul:mul,
+//     min:min,
+//     div:div
+// }
+// module.exports=obj;
 
 // In Node.js, you can export modules using various methods, each suited to different use cases. Here are the main types of exports:
 
@@ -104,3 +104,5 @@ module.exports=obj;
 //      ```
 
 // Make sure to adjust the path according to the structure of your project. Using relative paths is often more flexible and easier to maintain, especially when the project structure changes. However, absolute paths can be useful in certain situations, such as when the location of the file is fixed or when you want to ensure a consistent path across different environments.
+
+export const math=(a,b)=>a*b;
